@@ -77,6 +77,9 @@ num_entry.bind("<KeyRelease>", update_result)
 num_label = ttk.Label(root, text="R")
 num_label.grid(row=3, column=0, padx=6, pady=6, sticky="w")
 
+num_label = ttk.Label(root, text="I")
+num_label.grid(row=6, column=0, padx=6, pady=6, sticky="w")
+
 # Field for result
 result_text = tk.StringVar()
 result_box = ttk.Entry(root, textvariable=result_text, width=20, state="readonly")
