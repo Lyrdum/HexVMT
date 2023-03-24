@@ -1,2 +1,2 @@
 # Hexadecima-Calculator
-Hexadecimal calculator with GUI built with Python Tkinter.
+This calculator is a graphical user interface (GUI) tool developed using the Python Tkinter library. It allows users to perform arithmetic operations on hexadecimal numbers, by providing two input fields to enter the values and a radio button to choose the operation. The result is displayed in a read-only text box, and a copy button allows the user to copy the result to the clipboard. Additionally, it includes a checkbox to enable the "always on top" feature, which keeps the calculator window on top of all other windows. Overall, the calculator provides a simple and intuitive way to perform base-16 arithmetic operations for Python programmers and anyone who works with hexadecimal numbers.
