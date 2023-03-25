@@ -6,25 +6,25 @@ import tkinter.ttk as ttk
 def update_result(*args):
     try:
         # Get input values from entry boxes and convert from hexadecimal to integer
-        base_decimal = int(base_entry.get(), 16)
-        num_decimal = int(num_entry.get(), 16)
-        
+        x = int(base_entry.get().split("_")[-1].rstrip("h"), 16)
+        y = int(num_entry.get().split("_")[-1].rstrip("h"), 16)
+  
         # Subtract and convert the value back to hexadecimal and remove "0x" prefix
-        result = hex(base_decimal - num_decimal)[2:]
-        
+        result = hex(x - y)[2:]
+  
         # Optionally make the result uppercase if the checkbox is checked
         if upper_case_text.get():
             result = result.upper()
-        
+      
         # Optionally add "0x" prefix if the checkbox is checked
         if add_prefix.get():
             result = "0x" + result
-        
+      
         # Set the string values of the result fields
         result_text.set(result)
         result_int = int(result, 16)
         result_text2.set(str(result_int // 4))
-
+  
     # Handle ValueError exception
     except ValueError:
         result_text.set("Invalid input")
