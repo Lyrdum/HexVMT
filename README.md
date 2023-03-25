@@ -3,5 +3,8 @@ The program is a math calculator that performs subtraction between two hexadecim
 
 This program was designed to simplify the work of reverse engineers and make their life easier.
 
-![](https://user-images.githubusercontent.com/88494182/227656551-d87e43d7-362b-47cd-bed9-511e51aca9a5.PNG)
-![](https://user-images.githubusercontent.com/88494182/227656554-6b75299e-8958-4a70-b7c4-fef84ad05ccb.PNG)
+# Updates
+I have added conditions to check cases where the input has a "h" at the end and where the input starts with "type_".
+
+![](https://user-images.githubusercontent.com/88494182/227674742-2efa8a8c-c607-4190-a34d-58789b544681.PNG)
+![](https://user-images.githubusercontent.com/88494182/227674743-e6db4c72-963a-4a39-857f-aed50a05a68e.PNG)
